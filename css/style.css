@@ -1,0 +1,46 @@
+body {
+  background-color: #124b55;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+button {
+    all: unset;
+}
+.game {
+  width: 300px;
+  font-family: system-ui;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #1d6c7a;
+  float: left;
+  margin: 5px 10px;
+  font-size: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 1px #000000;
+}
+.square:hover {
+    background: #418f9c ;
+    cursor: pointer;
+}
+.applicationn {
+    margin-top: 30px;
+}
+.applicationn a p  {
+    color: white;
+}
+.reload {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #418f9c ;
+    border-radius: 10px;
+    box-shadow: 0px 4px 1px #000000;
+    cursor: pointer;
+}
